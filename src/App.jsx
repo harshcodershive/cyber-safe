@@ -1,3 +1,4 @@
+
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -5,18 +6,29 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import Reviews from './pages/Reviews';
+import Resources from './pages/Resources';
+import Disclaimer from './pages/Disclaimer';
+import CookiePolicy from './pages/CookiePolicy';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="top-antiviruses" element={<Home />} /> {/* Re-using Home for now as it lists them */}
+        <Route path="top-antiviruses" element={<Home />} />
+        <Route path="reviews" element={<Reviews />} />
+        <Route path="resources" element={<Resources />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+
+        {/* Legal Pages */}
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
         <Route path="terms-of-service" element={<TermsOfService />} />
-        {/* Fallback for now */}
+        <Route path="disclaimer" element={<Disclaimer />} />
+        <Route path="cookie-policy" element={<CookiePolicy />} />
+
+        {/* Fallback */}
         <Route path="*" element={<Home />} />
       </Route>
     </Routes>

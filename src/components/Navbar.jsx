@@ -1,9 +1,12 @@
 
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
+
+    const isActive = (path) => location.pathname === path ? "text-blue-600 font-semibold" : "text-slate-600 hover:text-blue-600 font-medium";
 
     return (
         <nav className="bg-white border-b border-gray-100 sticky top-0 z-50">
@@ -20,11 +23,13 @@ const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex md:items-center md:space-x-8">
-                        <Link to="/" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Home</Link>
-                        <Link to="/top-antiviruses" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Top Antiviruses</Link>
-                        <Link to="/about" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">About Us</Link>
-                        <Link to="/contact" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Contact</Link>
-                        <Link to="/get-started" className="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">Get Approved</Link>
+                        <Link to="/" className={isActive("/")}>Home</Link>
+                        <Link to="/top-antiviruses" className={isActive("/top-antiviruses")}>Top Picks</Link>
+                        <Link to="/reviews" className={isActive("/reviews")}>Reviews</Link>
+                        <Link to="/resources" className={isActive("/resources")}>Resources</Link>
+                        <Link to="/about" className={isActive("/about")}>About Us</Link>
+                        <Link to="/contact" className={isActive("/contact")}>Contact</Link>
+                        <Link to="/top-antiviruses" className="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">Get Approved</Link>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -42,11 +47,13 @@ const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden bg-white border-t border-gray-100">
                     <div className="px-4 pt-2 pb-4 space-y-1">
-                        <Link to="/" className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Home</Link>
-                        <Link to="/top-antiviruses" className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Top Antiviruses</Link>
-                        <Link to="/about" className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">About Us</Link>
-                        <Link to="/contact" className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Contact</Link>
-                        <Link to="/get-started" className="block w-full text-center mt-4 bg-blue-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-blue-700">Get Approved</Link>
+                        <Link to="/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Home</Link>
+                        <Link to="/top-antiviruses" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Top Picks</Link>
+                        <Link to="/reviews" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Reviews</Link>
+                        <Link to="/resources" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Resources</Link>
+                        <Link to="/about" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">About Us</Link>
+                        <Link to="/contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Contact</Link>
+                        <Link to="/top-antiviruses" onClick={() => setIsOpen(false)} className="block w-full text-center mt-4 bg-blue-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-blue-700">Get Approved</Link>
                     </div>
                 </div>
             )}
