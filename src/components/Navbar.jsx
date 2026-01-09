@@ -29,7 +29,7 @@ const Navbar = () => {
                         <Link to="/resources" className={isActive("/resources")}>Resources</Link>
                         <Link to="/about" className={isActive("/about")}>About Us</Link>
                         <Link to="/contact" className={isActive("/contact")}>Contact</Link>
-                        <Link to="/top-antiviruses" className="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">Get Approved</Link>
+                        <Link to="/top-antiviruses" className="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">Get Deals</Link>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -53,7 +53,7 @@ const Navbar = () => {
                         <Link to="/resources" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Resources</Link>
                         <Link to="/about" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">About Us</Link>
                         <Link to="/contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Contact</Link>
-                        <Link to="/top-antiviruses" onClick={() => setIsOpen(false)} className="block w-full text-center mt-4 bg-blue-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-blue-700">Get Approved</Link>
+                        <Link to="/top-antiviruses" onClick={() => setIsOpen(false)} className="block w-full text-center mt-4 bg-blue-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-blue-700">Get Deals</Link>
                     </div>
                 </div>
             )}

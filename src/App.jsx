@@ -2,6 +2,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
+import TopAntiviruses from './pages/TopAntiviruses';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -16,7 +17,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="top-antiviruses" element={<Home />} />
+        <Route path="top-antiviruses" element={<TopAntiviruses />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="resources" element={<Resources />} />
         <Route path="about" element={<About />} />
