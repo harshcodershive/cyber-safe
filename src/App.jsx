@@ -9,6 +9,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import Reviews from './pages/Reviews';
 import Resources from './pages/Resources';
+import ArticleDetail from './pages/ArticleDetail';
 import CybersecurityGuides from './pages/CybersecurityGuides';
 import AntivirusDetail from './pages/AntivirusDetail';
 import Disclaimer from './pages/Disclaimer';
@@ -23,6 +24,8 @@ function App() {
         <Route path="antivirus/:id" element={<AntivirusDetail />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="resources" element={<Resources />} />
+        <Route path="resource/:id" element={<ArticleDetail type="guide" />} />
+        <Route path="blog/:id" element={<ArticleDetail type="blog" />} />
         <Route path="cybersecurity-guides" element={<CybersecurityGuides />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />

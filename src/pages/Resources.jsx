@@ -1,5 +1,6 @@
 
 import { guides, blogs } from '../data/resources';
+import { Link } from 'react-router-dom';
 
 const Resources = () => {
     return (
@@ -60,7 +61,7 @@ const Resources = () => {
                                     </div>
                                 </div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
-                                    <a href={guide.link}>{guide.title}</a>
+                                    <Link to={`/resource/${guide.id}`}>{guide.title}</Link>
                                 </h3>
                                 <p className="text-slate-600 text-sm mb-3 line-clamp-2">{guide.excerpt}</p>
                                 <div className="text-slate-400 text-xs font-medium uppercase tracking-wider">{guide.readTime}</div>
@@ -134,7 +135,7 @@ const Resources = () => {
                                 <div className="flex-grow">
                                     <div className="text-sm text-slate-500 mb-2">{blog.date} • {blog.author}</div>
                                     <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-purple-600 transition-colors">
-                                        <a href={blog.link}>{blog.title}</a>
+                                        <Link to={`/blog/${blog.id}`}>{blog.title}</Link>
                                     </h3>
                                     <p className="text-slate-600 text-sm line-clamp-2">{blog.excerpt}</p>
                                 </div>
