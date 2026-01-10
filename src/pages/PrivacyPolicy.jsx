@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
                 <h1 className="text-4xl font-bold text-slate-900 mb-8">Privacy Policy</h1>
 
                 <div className="prose prose-lg text-slate-600 max-w-none">
-                    <p className="font-semibold text-slate-900">Last Updated: [Add Date]</p>
+                    <p className="font-semibold text-slate-900">Last Updated: January 9, 2026</p>
                     <p>
                         CyberSafe values your privacy and is committed to protecting the personal information of its users. This Privacy Policy explains how we collect, use, store, and protect information when you visit and interact with our website.
                     </p>

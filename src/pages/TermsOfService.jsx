@@ -6,7 +6,7 @@ const TermsOfService = () => {
                 <h1 className="text-4xl font-bold text-slate-900 mb-8">Terms of Service</h1>
 
                 <div className="prose prose-lg text-slate-600 max-w-none">
-                    <p className="font-semibold text-slate-900">Last Updated: [Add Date]</p>
+                    <p className="font-semibold text-slate-900">Last Updated: January 9, 2026</p>
                     <p>
                         Welcome to CyberSafe. These Terms of Service (“Terms”) govern your access to and use of the CyberSafe website. By accessing or using this website, you agree to comply with and be bound by these Terms. If you do not agree with any part of these Terms, please do not use our website.
                     </p>
