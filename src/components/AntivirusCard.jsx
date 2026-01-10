@@ -1,4 +1,6 @@
 
+import { Link } from 'react-router-dom';
+
 const AntivirusCard = ({ data }) => {
     return (
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-slate-100 flex flex-col h-full relative">
@@ -56,9 +58,9 @@ const AntivirusCard = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <a href={data.link} className="block w-full bg-blue-600 text-white text-center py-3 md:py-3.5 rounded-lg font-bold hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md text-base md:text-lg">
-                    Get Deal
-                </a>
+                <Link to={`/antivirus/${data.id}`} className="block w-full bg-blue-600 text-white text-center py-3 md:py-3.5 rounded-lg font-bold hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md text-base md:text-lg">
+                    Know More
+                </Link>
                 <p className="text-center text-xs text-slate-400 mt-3">30-day money-back guarantee</p>
             </div>
         </div>

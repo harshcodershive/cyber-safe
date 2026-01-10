@@ -10,6 +10,7 @@ import TermsOfService from './pages/TermsOfService';
 import Reviews from './pages/Reviews';
 import Resources from './pages/Resources';
 import CybersecurityGuides from './pages/CybersecurityGuides';
+import AntivirusDetail from './pages/AntivirusDetail';
 import Disclaimer from './pages/Disclaimer';
 import CookiePolicy from './pages/CookiePolicy';
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="top-antiviruses" element={<TopAntiviruses />} />
+        <Route path="antivirus/:id" element={<AntivirusDetail />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="resources" element={<Resources />} />
         <Route path="cybersecurity-guides" element={<CybersecurityGuides />} />

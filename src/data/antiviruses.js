@@ -12,6 +12,7 @@ export const antiviruses = [
         logo: nortion,
         rating: 4.8,
         reviews: 12500,
+        description: "Norton 360 Deluxe offers comprehensive protection for your devices, including real-time threat protection, a secure VPN, and dark web monitoring. It's designed to provide multiple layers of defense against existing and emerging malware threats.",
         features: [
             "Real-time Threat Protection",
             "Secure VPN (No-Log)",
@@ -30,6 +31,7 @@ export const antiviruses = [
         logo: mcafee,
         rating: 4.7,
         reviews: 10200,
+        description: "McAfee Total Protection provides all-in-one online protection for your personal info and privacy. It includes premium antivirus, safe browsing, identity monitoring, and a secure VPN to keep you safe online.",
         features: [
             "Real-Time Antivirus Protection",
             "Identity Theft Monitoring",
@@ -48,6 +50,7 @@ export const antiviruses = [
         logo: bitdefender,
         rating: 4.9,
         reviews: 9800,
+        description: "Bitdefender Total Security delivers the best anti-malware protection against e-threats across all major operating systems. It features advanced threat defense, multi-layer ransomware protection, and minimal impact on system performance.",
         features: [
             "Advanced Threat Defense",
             "Multi-Layer Ransomware Protection",
@@ -66,6 +69,7 @@ export const antiviruses = [
         logo: avast,
         rating: 4.6,
         reviews: 15000,
+        description: "Avast Premium Security provides award-winning antivirus protection that’s light on your PC but heavy on threats. It offers advanced protection against ransomware, fake websites, and phishing attacks.",
         features: [
             "Real-Time Malware Protection",
             "Advanced Firewall",
@@ -84,6 +88,7 @@ export const antiviruses = [
         logo: eset,
         rating: 4.7,
         reviews: 7200,
+        description: "ESET Internet Security offers legendary antivirus technology with a special focus on balance—delivering strong protection with a low system footprint. It includes banking and payment protection to secure your online transactions.",
         features: [
             "Advanced Antivirus & Antispyware",
             "Network Attack Protection",
@@ -102,6 +107,7 @@ export const antiviruses = [
         logo: avira,
         rating: 4.5,
         reviews: 8900,
+        description: "Avira Prime gives you convenient access to all of Avira's premium services for protection, privacy, and performance. It includes a powerful antivirus, unlimited VPN, and system speed optimization tools.",
         features: [
             "Real-Time Malware Protection",
             "Unlimited VPN",
