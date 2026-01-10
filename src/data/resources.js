@@ -1,3 +1,5 @@
+import phishingAttack from "../assets/phishingAttack.jpg"
+import ransomware from "../assets/ransomware.jpg"
 
 export const guides = [
     {
@@ -14,7 +16,7 @@ export const guides = [
         title: "Phishing Attacks: How to Spot and Avoid Them",
         excerpt: "Phishing is one of the most common cyber threats. Discover the signs of a phishing attempt and how to protect yourself.",
         category: "Security Tip",
-        image: "https://plus.unsplash.com/premium_photo-1661877112704-c6b97eada552?q=80&w=2670&auto=format&fit=crop",
+        image: phishingAttack,
         readTime: "7 min read",
         link: "#"
     },
@@ -23,7 +25,7 @@ export const guides = [
         title: "Ransomware Explained",
         excerpt: "What is ransomware, and why is it so dangerous? We explain how this threat works and how to prevent it.",
         category: "Guide",
-        image: "https://images.unsplash.com/photo-1563206767-5b1d972d9fb7?q=80&w=2574&auto=format&fit=crop",
+        image: ransomware,
         readTime: "6 min read",
         link: "#"
     }
