@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isDisclosureHovered, setIsDisclosureHovered] = useState(false);
     const location = useLocation();
 
     const isActive = (path) => location.pathname === path ? "text-blue-600 font-semibold" : "text-slate-600 hover:text-blue-600 font-medium";
@@ -29,6 +30,38 @@ const Navbar = () => {
                         <Link to="/resources" className={isActive("/resources")}>Resources</Link>
                         <Link to="/about" className={isActive("/about")}>About Us</Link>
                         <Link to="/contact" className={isActive("/contact")}>Contact</Link>
+
+                        {/* Affiliate Disclosure Hover */}
+                        <div
+                            className="relative group h-16 flex items-center"
+                            onMouseEnter={() => setIsDisclosureHovered(true)}
+                            onMouseLeave={() => setIsDisclosureHovered(false)}
+                        >
+                            <button className="text-slate-600 hover:text-blue-600 font-medium cursor-help flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clipRule="evenodd" />
+                                </svg>
+                                Disclosure
+                            </button>
+
+                            {isDisclosureHovered && (
+                                <div className="absolute top-14 right-0 w-72 bg-white rounded-lg shadow-xl border border-gray-100 p-4 z-50 text-sm animate-fade-in">
+                                    <div className="flex items-start gap-3">
+                                        <div className="bg-blue-100 p-2 rounded-full shrink-0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-blue-600">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p className="text-slate-700 leading-relaxed">
+                                                <strong>Advertising Disclosure:</strong> CyberSafe is supported by our readers. When you purchase through links on our site, we may earn an affiliate commission at no extra cost to you.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+
                         <Link to="/top-antiviruses" className="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">Get Deals</Link>
                     </div>
 
