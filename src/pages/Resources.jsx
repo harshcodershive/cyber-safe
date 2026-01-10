@@ -12,7 +12,7 @@ const Resources = () => {
                         Resources
                     </h1>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                        The Resources section of CyberSafe is designed to provide practical cybersecurity knowledge and helpful tools for users who want to improve their online safety. This page focuses on education and awareness, helping visitors understand digital risks and how to protect their devices and personal data.
+                        The Resources section of cybersafeantivirus is designed to provide practical cybersecurity knowledge and helpful tools for users who want to improve their online safety. This page focuses on education and awareness, helping visitors understand digital risks and how to protect their devices and personal data.
                     </p>
                     <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
                         Our resources are carefully curated to support users at every level — from beginners learning basic online safety to experienced users looking for deeper cybersecurity insights.
@@ -25,7 +25,7 @@ const Resources = () => {
                 <div className="mb-16">
                     <h2 className="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-blue-600 pl-4">What You’ll Find in Our Resources</h2>
                     <p className="text-lg text-slate-600 mb-6">
-                        CyberSafe resources include easy-to-understand guides, security checklists, and informative materials related to digital protection, such as:
+                        cybersafeantivirus resources include easy-to-understand guides, security checklists, and informative materials related to digital protection, such as:
                     </p>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                         {[
@@ -75,7 +75,7 @@ const Resources = () => {
                     <div>
                         <h3 className="text-xl font-bold text-slate-900 mb-3">Educational & Independent Content</h3>
                         <p className="text-slate-600 leading-relaxed">
-                            All resources on CyberSafe are developed for educational purposes only. We aim to help users make informed decisions by understanding cybersecurity risks and available protection methods. While some resources may reference antivirus tools or services, our content remains neutral, research-based, and user-focused. We do not promote unsafe practices or misleading information.
+                            All resources on cybersafeantivirus are developed for educational purposes only. We aim to help users make informed decisions by understanding cybersecurity risks and available protection methods. While some resources may reference antivirus tools or services, our content remains neutral, research-based, and user-focused. We do not promote unsafe practices or misleading information.
                         </p>
                     </div>
                     <div>
@@ -94,7 +94,7 @@ const Resources = () => {
                         Blog
                     </h2>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                        The CyberSafe Blog is where we share the latest insights, updates, and educational content related to cybersecurity and antivirus software. Our blog is designed to keep users informed about digital threats and security trends in a constantly changing online environment.
+                        The cybersafeantivirus Blog is where we share the latest insights, updates, and educational content related to cybersecurity and antivirus software. Our blog is designed to keep users informed about digital threats and security trends in a constantly changing online environment.
                     </p>
                 </div>
             </div>
@@ -149,16 +149,16 @@ const Resources = () => {
                     <div>
                         <h3 className="text-xl font-bold text-slate-900 mb-3">Informational and Trust-Focused Content</h3>
                         <p className="text-slate-600 leading-relaxed mb-4">
-                            CyberSafe’s blog content is informational and educational in nature. Our goal is to help users understand cybersecurity risks and learn how antivirus solutions can reduce those risks.
+                            cybersafeantivirus’s blog content is informational and educational in nature. Our goal is to help users understand cybersecurity risks and learn how antivirus solutions can reduce those risks.
                         </p>
                         <p className="text-slate-500 text-sm italic">
                             Some blog posts may contain affiliate links where relevant. However, all opinions and recommendations are based on research and analysis, not promotional bias. Transparency is important to us, and users can always refer to our Affiliate Disclosure for more details.
                         </p>
                     </div>
                     <div>
-                        <h3 className="text-xl font-bold text-slate-900 mb-3">Stay Informed with CyberSafe</h3>
+                        <h3 className="text-xl font-bold text-slate-900 mb-3">Stay Informed with cybersafeantivirus</h3>
                         <p className="text-slate-600 leading-relaxed">
-                            Cybersecurity is not static — new threats appear every day. Our blog is updated regularly to reflect changes in the digital security landscape and provide timely, reliable information. By following the CyberSafe blog, users can stay proactive and better prepared to protect their digital lives.
+                            Cybersecurity is not static — new threats appear every day. Our blog is updated regularly to reflect changes in the digital security landscape and provide timely, reliable information. By following the cybersafeantivirus blog, users can stay proactive and better prepared to protect their digital lives.
                         </p>
                     </div>
                 </div>

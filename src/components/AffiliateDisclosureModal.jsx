@@ -31,7 +31,7 @@ const AffiliateDisclosureModal = ({ isOpen, onClose }) => {
                 </div>
                 <div className="p-6 md:p-8">
                     <p className="text-slate-600 mb-6 leading-relaxed">
-                        CyberSafe participates in affiliate programs. This means we may earn a commission when users purchase products through links on our website, at <strong>no additional cost to you</strong>.
+                        cybersafeantivirus participates in affiliate programs. This means we may earn a commission when users purchase products through links on our website, at <strong>no additional cost to you</strong>.
                     </p>
                     <p className="text-slate-600 mb-8 leading-relaxed">
                         Our recommendations are based on independent research, testing, and analysis. Our editorial integrity is not influenced by affiliate partnerships. We only recommend products we trust and believe will provide value to our users.

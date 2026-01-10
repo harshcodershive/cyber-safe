@@ -8,7 +8,7 @@ const CookiePolicy = () => {
                 <div className="prose prose-lg text-slate-600 max-w-none">
                     <p className="font-semibold text-slate-900">Last Updated: January 9, 2026</p>
                     <p>
-                        This Cookie Policy explains how CyberSafe uses cookies and similar technologies when you visit our website. By continuing to browse or use our website, you agree to the use of cookies as described in this policy.
+                        This Cookie Policy explains how cybersafeantivirus uses cookies and similar technologies when you visit our website. By continuing to browse or use our website, you agree to the use of cookies as described in this policy.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">What Are Cookies?</h2>
@@ -17,7 +17,7 @@ const CookiePolicy = () => {
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">How We Use Cookies</h2>
-                    <p>CyberSafe uses cookies to:</p>
+                    <p>cybersafeantivirus uses cookies to:</p>
                     <ul className="list-disc pl-6 space-y-2 mb-4">
                         <li>Ensure proper website functionality</li>
                         <li>Improve navigation and user experience</li>
@@ -47,7 +47,7 @@ const CookiePolicy = () => {
 
                     <h3 className="text-xl font-bold text-slate-900 mt-6 mb-4">4. Affiliate and Third-Party Cookies</h3>
                     <p>
-                        CyberSafe may use affiliate or third-party cookies to track referrals and conversions when users click on affiliate links. These cookies help affiliate partners attribute commissions correctly and do not increase the cost to users.
+                        cybersafeantivirus may use affiliate or third-party cookies to track referrals and conversions when users click on affiliate links. These cookies help affiliate partners attribute commissions correctly and do not increase the cost to users.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Third-Party Cookies</h2>
@@ -55,7 +55,7 @@ const CookiePolicy = () => {
                         Some cookies may be placed by third-party services, such as analytics providers or affiliate networks. These third parties may use cookies in accordance with their own privacy and cookie policies.
                     </p>
                     <p>
-                        CyberSafe does not control third-party cookies and encourages users to review the policies of any third-party services they interact with.
+                        cybersafeantivirus does not control third-party cookies and encourages users to review the policies of any third-party services they interact with.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Managing Cookies</h2>
@@ -69,17 +69,17 @@ const CookiePolicy = () => {
                         <li>Disable cookies entirely</li>
                     </ul>
                     <p>
-                        Please note that disabling cookies may affect the functionality and performance of certain features on the CyberSafe website.
+                        Please note that disabling cookies may affect the functionality and performance of certain features on the cybersafeantivirus website.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Consent to Cookies</h2>
                     <p>
-                        By continuing to use CyberSafe, you consent to the use of cookies as outlined in this Cookie Policy. Where required by law, users may be presented with a cookie consent banner to manage preferences.
+                        By continuing to use cybersafeantivirus, you consent to the use of cookies as outlined in this Cookie Policy. Where required by law, users may be presented with a cookie consent banner to manage preferences.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Updates to This Cookie Policy</h2>
                     <p>
-                        CyberSafe reserves the right to update or modify this Cookie Policy at any time. Any changes will be posted on this page with an updated revision date. Users are encouraged to review this policy periodically.
+                        cybersafeantivirus reserves the right to update or modify this Cookie Policy at any time. Any changes will be posted on this page with an updated revision date. Users are encouraged to review this policy periodically.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Contact Us</h2>
@@ -88,7 +88,7 @@ const CookiePolicy = () => {
                     </p>
                     <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 not-prose">
                         <p className="text-lg font-bold text-slate-900 mb-1">Email:</p>
-                        <a href="mailto:support@cybersafe.com" className="text-blue-600 font-bold text-xl hover:underline">support@cybersafe.com</a>
+                        <a href="mailto:support@cybersafeantivirus.com" className="text-blue-600 font-bold text-xl hover:underline">support@cybersafeantivirus.com</a>
                     </div>
                 </div>
             </div>

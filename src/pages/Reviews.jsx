@@ -12,7 +12,7 @@ const Reviews = () => {
                         Antivirus Software Reviews
                     </h1>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                        At CyberSafe, our antivirus reviews are designed to help users make informed and confident decisions about their digital security. With the increasing number of cyber threats, choosing the right antivirus software has never been more important.
+                        At cybersafeantivirus, our antivirus reviews are designed to help users make informed and confident decisions about their digital security. With the increasing number of cyber threats, choosing the right antivirus software has never been more important.
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const Reviews = () => {
                     <div className="mb-12 text-center">
                         <h2 className="text-3xl font-bold text-slate-900 mb-4">How We Review Antivirus Software</h2>
                         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                            Each antivirus review on CyberSafe is created using a structured evaluation process. We assess products based on several important factors:
+                            Each antivirus review on cybersafeantivirus is created using a structured evaluation process. We assess products based on several important factors:
                         </p>
                     </div>
 
@@ -89,7 +89,7 @@ const Reviews = () => {
                     <div className="md:w-1/2">
                         <h2 className="text-3xl font-bold mb-6">Independent and Research-Based</h2>
                         <p className="text-lg text-blue-100 mb-6 leading-relaxed">
-                            CyberSafe is an independent cybersecurity information platform. Our reviews are based on research, product specifications, industry testing data, and user experience insights.
+                            cybersafeantivirus is an independent cybersecurity information platform. Our reviews are based on research, product specifications, industry testing data, and user experience insights.
                         </p>
                         <p className="text-blue-200">
                             While some links on our website may be affiliate links, our editorial decisions remain independent. Affiliate partnerships do not influence how products are reviewed, rated, or compared.
@@ -141,7 +141,7 @@ const Reviews = () => {
                     <div>
                         <h3 className="text-xl font-bold text-slate-900 mb-3">Transparency Notice</h3>
                         <p className="text-slate-600 text-sm italic bg-gray-50 p-4 rounded-lg border border-gray-100">
-                            Some links within our reviews may be affiliate links. This means CyberSafe may earn a commission if you choose to purchase through those links, at no additional cost to you. For more details, please read our Affiliate Disclosure page.
+                            Some links within our reviews may be affiliate links. This means cybersafeantivirus may earn a commission if you choose to purchase through those links, at no additional cost to you. For more details, please read our Affiliate Disclosure page.
                         </p>
                     </div>
                 </div>

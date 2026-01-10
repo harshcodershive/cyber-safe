@@ -9,7 +9,7 @@ export default function About() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">About Us</h1>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                        CyberSafe is a cybersecurity-focused information platform dedicated to helping individuals and businesses navigate the increasingly complex world of digital security.
+                        cybersafeantivirus is a cybersecurity-focused information platform dedicated to helping individuals and businesses navigate the increasingly complex world of digital security.
                     </p>
                 </div>
             </div>
@@ -18,7 +18,7 @@ export default function About() {
             <section className="py-20">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <p className="text-lg text-slate-600 leading-relaxed mb-10">
-                        As online threats continue to evolve, our goal is to provide clear, reliable, and easy-to-understand information that empowers users to make informed decisions about protecting their digital lives. We believe that online safety should not be complicated or confusing. CyberSafe was created to simplify cybersecurity concepts and guide users toward trusted antivirus and security solutions through research-driven content, expert insights, and transparent recommendations.
+                        As online threats continue to evolve, our goal is to provide clear, reliable, and easy-to-understand information that empowers users to make informed decisions about protecting their digital lives. We believe that online safety should not be complicated or confusing. cybersafeantivirus was created to simplify cybersecurity concepts and guide users toward trusted antivirus and security solutions through research-driven content, expert insights, and transparent recommendations.
                     </p>
                     <div className="h-1 w-24 bg-blue-600 mx-auto rounded"></div>
                 </div>
@@ -32,7 +32,7 @@ export default function About() {
                             <h2 className="text-3xl font-bold text-slate-900 mb-6">Who We Are</h2>
                             <div className="prose prose-lg text-slate-600">
                                 <p className="mb-4">
-                                    CyberSafe is an independent online resource built for users who value security, privacy, and informed decision-making. Our platform focuses on reviewing, comparing, and explaining antivirus and cybersecurity tools in a way that is accessible to both beginners and experienced users.
+                                    cybersafeantivirus is an independent online resource built for users who value security, privacy, and informed decision-making. Our platform focuses on reviewing, comparing, and explaining antivirus and cybersecurity tools in a way that is accessible to both beginners and experienced users.
                                 </p>
                                 <p>
                                     We analyze security software based on multiple factors, including protection capabilities, performance impact, usability, features, pricing, and overall reliability. By breaking down technical details into practical insights, we help users understand which solutions best fit their needs.
@@ -43,10 +43,10 @@ export default function About() {
                             <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Approach</h2>
                             <div className="prose prose-lg text-slate-600">
                                 <p className="mb-4">
-                                    At CyberSafe, accuracy and transparency are at the core of everything we do. Our content is developed using a structured research process that includes product analysis, industry data, feature evaluation, and user-focused considerations.
+                                    At cybersafeantivirus, accuracy and transparency are at the core of everything we do. Our content is developed using a structured research process that includes product analysis, industry data, feature evaluation, and user-focused considerations.
                                 </p>
                                 <p className="italic bg-white p-4 rounded-lg border border-slate-200">
-                                    While CyberSafe may participate in affiliate programs, our editorial content remains independent. Affiliate partnerships do not influence our reviews, comparisons, or recommendations. Our priority is to provide honest and balanced information that users can trust.
+                                    While cybersafeantivirus may participate in affiliate programs, our editorial content remains independent. Affiliate partnerships do not influence our reviews, comparisons, or recommendations. Our priority is to provide honest and balanced information that users can trust.
                                 </p>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ export default function About() {
                             Cyber threats such as malware, phishing, ransomware, and identity theft affect millions of users every year. Choosing the right protection tools can make a significant difference in preventing data loss and financial harm.
                         </p>
                         <p className="text-blue-100 text-lg leading-relaxed">
-                            CyberSafe exists to raise awareness about these risks and to help users understand how antivirus and cybersecurity solutions work to reduce them. Our mission is not just to recommend products, but to educate users so they can make confident and informed security decisions.
+                            cybersafeantivirus exists to raise awareness about these risks and to help users understand how antivirus and cybersecurity solutions work to reduce them. Our mission is not just to recommend products, but to educate users so they can make confident and informed security decisions.
                         </p>
                     </div>
                     <div className="md:w-1/2 flex justify-center">
@@ -102,7 +102,7 @@ export default function About() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                                 </svg>
                                 <span className="text-slate-700 text-sm">
-                                    CyberSafe regularly updates its content to reflect changes in technology, security threats, and antivirus software developments.
+                                    cybersafeantivirus regularly updates its content to reflect changes in technology, security threats, and antivirus software developments.
                                 </span>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ export default function About() {
                     <div className="bg-slate-900 rounded-2xl p-8 md:p-12 text-center text-white">
                         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
                         <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-                            We value feedback, questions, and suggestions from our users. If you would like to contact CyberSafe, please visit our Contact Us page. We are always open to hearing from our community and improving our platform.
+                            We value feedback, questions, and suggestions from our users. If you would like to contact cybersafeantivirus, please visit our Contact Us page. We are always open to hearing from our community and improving our platform.
                         </p>
                         <Link to="/contact" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors">
                             Contact Us

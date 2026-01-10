@@ -7,7 +7,7 @@ const CybersecurityGuides = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">Cybersecurity Guides</h1>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                        The Cybersecurity Guides section of CyberSafe is dedicated to educating users about digital threats and helping them understand how to protect their devices, data, and online privacy.
+                        The Cybersecurity Guides section of cybersafeantivirus is dedicated to educating users about digital threats and helping them understand how to protect their devices, data, and online privacy.
                     </p>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const CybersecurityGuides = () => {
                     <h2 className="text-3xl font-bold text-slate-900 mb-6">How Antivirus Software Helps</h2>
                     <div className="prose prose-lg text-slate-600">
                         <p className="mb-4">
-                            Antivirus and cybersecurity software play a critical role in protecting devices from online threats. CyberSafe guides explain how antivirus solutions detect, block, and remove malicious software using real-time protection, threat databases, and behavioral analysis.
+                            Antivirus and cybersecurity software play a critical role in protecting devices from online threats. cybersafeantivirus guides explain how antivirus solutions detect, block, and remove malicious software using real-time protection, threat databases, and behavioral analysis.
                         </p>
                         <p>
                             We also cover additional security features such as firewalls, web protection, phishing detection, and secure browsing tools, helping users understand the full scope of modern digital protection.
@@ -73,7 +73,7 @@ const CybersecurityGuides = () => {
                 <section className="mb-16">
                     <h2 className="text-3xl font-bold text-slate-900 mb-6">Device & Privacy Protection</h2>
                     <p className="text-lg text-slate-600 leading-relaxed">
-                        With the increasing use of mobile devices and cloud services, protecting personal data and privacy has become more important than ever. CyberSafe guides provide insights into securing computers, smartphones, and online accounts, as well as understanding privacy risks in today’s digital environment.
+                        With the increasing use of mobile devices and cloud services, protecting personal data and privacy has become more important than ever. cybersafeantivirus guides provide insights into securing computers, smartphones, and online accounts, as well as understanding privacy risks in today’s digital environment.
                     </p>
                 </section>
 
@@ -82,11 +82,11 @@ const CybersecurityGuides = () => {
                     <div>
                         <h3 className="text-xl font-bold text-slate-900 mb-3">Educational & Transparent Content</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            All CyberSafe cybersecurity guides are created for educational purposes only. While some guides may reference antivirus tools or services, our content remains research-based and user-focused. Any affiliate relationships are disclosed transparently and do not influence the educational intent of our guides.
+                            All cybersafeantivirus cybersecurity guides are created for educational purposes only. While some guides may reference antivirus tools or services, our content remains research-based and user-focused. Any affiliate relationships are disclosed transparently and do not influence the educational intent of our guides.
                         </p>
                     </div>
                     <div>
-                        <h3 className="text-xl font-bold text-slate-900 mb-3">Stay Informed with CyberSafe</h3>
+                        <h3 className="text-xl font-bold text-slate-900 mb-3">Stay Informed with cybersafeantivirus</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
                             Cyber threats evolve constantly, and staying informed is one of the best defenses. Our cybersecurity guides are reviewed and updated regularly to reflect new risks, technologies, and protection methods.
                         </p>

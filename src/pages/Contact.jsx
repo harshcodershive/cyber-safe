@@ -28,7 +28,7 @@ const Contact = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">Contact Us</h1>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                        Thank you for visiting CyberSafe. We value communication and are always open to hearing from our users, partners, and visitors.
+                        Thank you for visiting cybersafeantivirus. We value communication and are always open to hearing from our users, partners, and visitors.
                     </p>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                     <div>
                         <div className="prose prose-lg text-slate-600 mb-12">
                             <p>
-                                Whether you have a question, feedback, or a general inquiry, we encourage you to get in touch with us. CyberSafe is committed to providing accurate and helpful cybersecurity information, and your input helps us improve the quality of our content and services.
+                                Whether you have a question, feedback, or a general inquiry, we encourage you to get in touch with us. cybersafeantivirus is committed to providing accurate and helpful cybersecurity information, and your input helps us improve the quality of our content and services.
                             </p>
                         </div>
 
@@ -55,7 +55,7 @@ const Contact = () => {
                                     </svg>
                                     <div>
                                         <div className="text-sm text-slate-500 font-bold uppercase tracking-wider">Email</div>
-                                        <a href="mailto:support@cybersafe.com" className="text-lg font-bold text-slate-900 hover:text-blue-600 transition-colors">support@cybersafe.com</a>
+                                        <a href="mailto:support@cybersafeantivirus.com" className="text-lg font-bold text-slate-900 hover:text-blue-600 transition-colors">support@cybersafeantivirus.com</a>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                                     ))}
                                 </ul>
                                 <p className="mt-4 text-sm text-slate-500 bg-yellow-50 p-4 rounded border border-yellow-100 italic">
-                                    Please note that CyberSafe does not provide direct technical support for antivirus software. For product-specific issues, we recommend contacting the official support team of the respective antivirus provider.
+                                    Please note that cybersafeantivirus does not provide direct technical support for antivirus software. For product-specific issues, we recommend contacting the official support team of the respective antivirus provider.
                                 </p>
                             </div>
 

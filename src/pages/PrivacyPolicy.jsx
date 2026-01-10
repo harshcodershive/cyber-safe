@@ -8,14 +8,14 @@ const PrivacyPolicy = () => {
                 <div className="prose prose-lg text-slate-600 max-w-none">
                     <p className="font-semibold text-slate-900">Last Updated: January 9, 2026</p>
                     <p>
-                        CyberSafe values your privacy and is committed to protecting the personal information of its users. This Privacy Policy explains how we collect, use, store, and protect information when you visit and interact with our website.
+                        cybersafeantivirus values your privacy and is committed to protecting the personal information of its users. This Privacy Policy explains how we collect, use, store, and protect information when you visit and interact with our website.
                     </p>
                     <p>
-                        By accessing or using CyberSafe, you agree to the terms outlined in this Privacy Policy.
+                        By accessing or using cybersafeantivirus, you agree to the terms outlined in this Privacy Policy.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Information We Collect</h2>
-                    <p>CyberSafe may collect limited information in the following ways:</p>
+                    <p>cybersafeantivirus may collect limited information in the following ways:</p>
 
                     <h3 className="text-xl font-bold text-slate-900 mt-6 mb-4">1. Personal Information</h3>
                     <p>We may collect personal information that you voluntarily provide, such as:</p>
@@ -44,11 +44,11 @@ const PrivacyPolicy = () => {
                         <li>Analyze website traffic and usage patterns</li>
                         <li>Maintain website security and performance</li>
                     </ul>
-                    <p className="font-medium text-slate-900">CyberSafe does not sell, rent, or trade personal information to third parties.</p>
+                    <p className="font-medium text-slate-900">cybersafeantivirus does not sell, rent, or trade personal information to third parties.</p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Cookies and Tracking Technologies</h2>
                     <p>
-                        CyberSafe may use cookies and similar tracking technologies to enhance user experience and analyze website traffic.
+                        cybersafeantivirus may use cookies and similar tracking technologies to enhance user experience and analyze website traffic.
                     </p>
                     <p className="mb-4">Cookies help us:</p>
                     <ul className="list-disc pl-6 space-y-2 mb-4">
@@ -62,15 +62,15 @@ const PrivacyPolicy = () => {
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Third-Party Links and Affiliate Programs</h2>
                     <p>
-                        CyberSafe may contain links to third-party websites, including antivirus providers and affiliate partners. Clicking on these links may redirect you to external websites that operate under their own privacy policies.
+                        cybersafeantivirus may contain links to third-party websites, including antivirus providers and affiliate partners. Clicking on these links may redirect you to external websites that operate under their own privacy policies.
                     </p>
                     <p>
-                        CyberSafe is not responsible for the privacy practices or content of third-party websites. We encourage users to review the privacy policies of any external sites they visit.
+                        cybersafeantivirus is not responsible for the privacy practices or content of third-party websites. We encourage users to review the privacy policies of any external sites they visit.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Affiliate Disclosure</h2>
                     <p>
-                        CyberSafe participates in affiliate programs. This means we may earn a commission when users purchase products through affiliate links, at no additional cost to the user.
+                        cybersafeantivirus participates in affiliate programs. This means we may earn a commission when users purchase products through affiliate links, at no additional cost to the user.
                     </p>
                     <p>
                         Affiliate partnerships do not influence how we collect or handle personal information. For more details, please review our Affiliate Disclosure page.
@@ -83,7 +83,7 @@ const PrivacyPolicy = () => {
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Children’s Information</h2>
                     <p>
-                        CyberSafe does not knowingly collect personal information from children under the age of 13. If you believe that a child has provided personal information on our website, please contact us, and we will take appropriate action.
+                        cybersafeantivirus does not knowingly collect personal information from children under the age of 13. If you believe that a child has provided personal information on our website, please contact us, and we will take appropriate action.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Your Privacy Rights</h2>
@@ -94,7 +94,7 @@ const PrivacyPolicy = () => {
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Changes to This Privacy Policy</h2>
                     <p>
-                        CyberSafe reserves the right to update or modify this Privacy Policy at any time. Any changes will be posted on this page with an updated revision date. We encourage users to review this page periodically.
+                        cybersafeantivirus reserves the right to update or modify this Privacy Policy at any time. Any changes will be posted on this page with an updated revision date. We encourage users to review this page periodically.
                     </p>
 
                     <h2 className="text-2xl font-bold text-slate-900 mt-10 mb-6">Contact Us</h2>
@@ -103,7 +103,7 @@ const PrivacyPolicy = () => {
                     </p>
                     <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 not-prose">
                         <p className="text-lg font-bold text-slate-900 mb-1">Email:</p>
-                        <a href="mailto:support@cybersafe.com" className="text-blue-600 font-bold text-xl hover:underline">support@cybersafe.com</a>
+                        <a href="mailto:support@cybersafeantivirus.com" className="text-blue-600 font-bold text-xl hover:underline">support@cybersafeantivirus.com</a>
                     </div>
                 </div>
             </div>
