@@ -20,9 +20,9 @@ export const antiviruses = [
             "50GB Cloud Backup",
             "Password Manager"
         ],
-        price: "$49.99 / year",
-        originalPrice: "$104.99 / year",
-        discount: "Up to 52% OFF",
+        // price: "$49.99 / year",
+        // originalPrice: "$104.99 / year",
+        // discount: "Up to 52% OFF",
         link: "https://www.norton.com/products/norton-360-deluxe"
     },
     {
@@ -39,9 +39,9 @@ export const antiviruses = [
             "Password Manager",
             "Firewall Protection"
         ],
-        price: "$39.99 / year",
-        originalPrice: "$99.99 / year",
-        discount: "Up to 60% OFF",
+        // price: "$39.99 / year",
+        // originalPrice: "$99.99 / year",
+        // discount: "Up to 60% OFF",
         link: "https://www.mcafee.com/en-us/antivirus.html"
     },
     {
@@ -58,9 +58,9 @@ export const antiviruses = [
             "Parental Controls",
             "Anti-Phishing & Fraud Protection"
         ],
-        price: "$44.99 / year",
-        originalPrice: "$94.99 / year",
-        discount: "Up to 53% OFF",
+        // price: "$44.99 / year",
+        // originalPrice: "$94.99 / year",
+        // discount: "Up to 53% OFF",
         link: "https://www.bitdefender.com/solutions/total-security.html"
     },
     {
@@ -77,9 +77,9 @@ export const antiviruses = [
             "Webcam Protection",
             "Fake Website Protection"
         ],
-        price: "$69.99 / year",
-        originalPrice: "$89.99 / year",
-        discount: "Up to 22% OFF",
+        // price: "$69.99 / year",
+        // originalPrice: "$89.99 / year",
+        // discount: "Up to 22% OFF",
         link: "https://www.avast.com/premium-security"
     },
     {
@@ -96,9 +96,9 @@ export const antiviruses = [
             "Anti-Theft Tools",
             "Low System Impact"
         ],
-        price: "$49.99 / year",
-        originalPrice: "$69.99 / year",
-        discount: "Up to 29% OFF",
+        // price: "$49.99 / year",
+        // originalPrice: "$69.99 / year",
+        // discount: "Up to 29% OFF",
         link: "https://www.eset.com/int/home/internet-security/"
     },
     {
@@ -115,9 +115,9 @@ export const antiviruses = [
             "Password Manager",
             "PC Cleaner"
         ],
-        price: "$59.99 / year",
-        originalPrice: "$99.99 / year",
-        discount: "Up to 40% OFF",
+        // price: "$59.99 / year",
+        // originalPrice: "$99.99 / year",
+        // discount: "Up to 40% OFF",
         link: "https://www.avira.com/en/avira-prime"
     }
 ];

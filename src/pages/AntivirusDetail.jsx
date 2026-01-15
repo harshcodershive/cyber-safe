@@ -56,10 +56,10 @@ const AntivirusDetail = () => {
 
                             <div className="w-full bg-gray-50 rounded-xl p-6 mb-6">
                                 <span className="block text-slate-500 line-through text-lg">{antivirus.originalPrice}</span>
-                                <div className="flex items-center justify-center gap-3 mb-2">
+                                {/* <div className="flex items-center justify-center gap-3 mb-2">
                                     <span className="text-4xl font-bold text-slate-900">{antivirus.price}</span>
                                     <span className="bg-green-100 text-green-700 font-bold px-3 py-1 rounded-full text-sm">{antivirus.discount}</span>
-                                </div>
+                                </div> */}
                                 <a
                                     href={antivirus.link}
                                     target="_blank"
@@ -68,7 +68,7 @@ const AntivirusDetail = () => {
                                 >
                                     Buy Now
                                 </a>
-                                <p className="text-xs text-slate-400 mt-3">30-day money-back guarantee via official site</p>
+                                {/* <p className="text-xs text-slate-400 mt-3">30-day money-back guarantee via official site</p> */}
                             </div>
                         </div>
 

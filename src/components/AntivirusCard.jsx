@@ -5,11 +5,11 @@ const AntivirusCard = ({ data }) => {
     return (
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-slate-100 flex flex-col h-full relative">
             {/* Discount Badge - Positioned Absolute */}
-            <div className="absolute top-4 right-4 z-10">
+            {/* <div className="absolute top-4 right-4 z-10">
                 <span className="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-sm">
                     {data.discount}
                 </span>
-            </div>
+            </div> */}
 
             <div className="p-5 md:p-6 flex-grow flex flex-col">
                 {/* Large Centered Logo Area - Responsive Height */}
@@ -61,7 +61,7 @@ const AntivirusCard = ({ data }) => {
                 <Link to={`/antivirus/${data.id}`} className="block w-full bg-blue-600 text-white text-center py-3 md:py-3.5 rounded-lg font-bold hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md text-base md:text-lg">
                     Know More
                 </Link>
-                <p className="text-center text-xs text-slate-400 mt-3">30-day money-back guarantee</p>
+                {/* <p className="text-center text-xs text-slate-400 mt-3">30-day money-back guarantee</p> */}
             </div>
         </div>
     );
