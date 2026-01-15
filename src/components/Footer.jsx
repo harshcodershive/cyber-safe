@@ -60,6 +60,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
+                        <p className="mb-4 text-slate-400">
+                            Participating in affiliate programs helps us stay free for you. When you buy through links on our site, we may earn an affiliate commission.
+                        </p>
                         &copy; {new Date().getFullYear()} cybersafeantivirus. All rights reserved.
                     </div>
                 </div>
